@@ -1,5 +1,7 @@
 # Month of MERN week0 Challenge
 
+## Challenge Completed. Images used as assets are included in webpages directory.
+
 ## Task
 - [ ] Create  Google clone using HTML, CSS, JS.
 - [ ] The Google clone should have:
