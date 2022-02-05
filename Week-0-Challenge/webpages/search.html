@@ -10,8 +10,54 @@
 
 </head>
 <body>
-    <script type="text/javascript">
-
-    </script>
-</body>
+    <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="btn btn-primary"class="nav-link active" aria-current="page" href="images.html" style='margin-right:5px'>Images</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="btn btn-primary"class="nav-link" href="adv_search.html" style='margin-right:5px'>Advanced Search</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="btn btn-primary" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Options🔻
+                </a>              
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank">Gmail✉️</a>
+                  <a class="dropdown-item" href="https://drive.google.com/drive/u/0/my-drive" target="_blank">Drive📁</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/" target="_blank">Youtube📽️</a>
+                  <a class="dropdown-item" href="https://photos.google.com/?pageId=none&pli=1" target="_blank">Photos🖼️</a>
+                  <hr class="dropdown-divider">
+                  <a class="dropdown-item" href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app&pli=1" target="_blank">Account👤</a>
+                </ul>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <form action = "http://www.google.com/search">
+      <div align="center">
+        <img src="google_PNG.png" id="searchimage"></img>
+        <input type="text" name="q" id="searchbar" placeholder=" Search Google ">
+        <button class="btn btn-outline-success" id="search_button" type="submit">Google Search</button>      
+    
+      </div>
+      </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
